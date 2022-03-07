@@ -15,13 +15,47 @@ var obj=[
         company:"guvi geek network"
     }
 ]
-    for(var i=0; i< obj.length; i++){
-        user=obj[i];
+    // normal for loop
+    //for(var i=0; i< obj.length; i++){
+       // user=obj[i];
+        ///console.log(
+           // `
+             //Name:${user.person}
+             //age:${user.age}
+             //company:${user.company}`
+        //)
+          
+        // }
+    // forEach loop
+    //obj.forEach((user)=>{
+    //  console.log(
+    //      `
+    //      Name:${user.person}
+    //      age:${user.age}
+    //      company:${user.company}`
+         
+    //      );
+    //  }) 
+    // for in loop
+    // for(var index in obj){
+    //     user=obj[index];
+    //     console.log(
+    //         `
+    //          Name:${user.person}
+    //          age:${user.age}
+    //          company:${user.company}`
+
+    //     );
+
+    // }
+    //for of loop
+    for (var key of obj){
         console.log(
             `
-             Name:${user.person}
-             age:${user.age}
-             company:${user.company}`
-        )
-          
-         }
+             Name:${key.person}
+             age:${key.age}
+             company:${key.company}`
+        
+
+        );
+    }
