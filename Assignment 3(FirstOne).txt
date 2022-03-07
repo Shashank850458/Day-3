@@ -1,0 +1,27 @@
+var obj=[
+    {
+        person:"shankar",
+        age:"2",
+        company:"guvi"
+    },
+    {
+        person:" mohan",
+        age:"3",
+        company:"guvi geek"
+    },
+    {
+        person:" raj",
+        age:"4",
+        company:"guvi geek network"
+    }
+]
+    for(var i=0; i< obj.length; i++){
+        user=obj[i];
+        console.log(
+            `
+             Name:${user.person}
+             age:${user.age}
+             company:${user.company}`
+        )
+          
+         }
