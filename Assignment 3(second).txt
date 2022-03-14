@@ -1,0 +1,54 @@
+2.Create your own resume data in JSON format
+
+ let myResume={
+  "basics": {
+    "name": "SHASHANKA HEBBAR",
+    "email": "shashankhebbar85@gmail.com",
+    "phone": 9483617858,
+    "degree": "B.E",
+    "location": {
+      "address": "Marukeri",
+      "postalCode": 581320,
+      "city": "Bhatkal",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "profiles": [
+      {
+        "website": "https://www.linkedin.com/in/shashanka-narayana-hebbar-518b331b8",
+        "github":"https://github.com/Shashank850458"
+      }
+    ]
+  },
+  
+  "education": [
+    {
+      "institution": "Anjuman Institute Of Technogy And Management Bhatkal",
+      "department": "Electronics and Communications",
+      "studyType": "fulltime",
+      "batch start year": 2017,
+      "batch end year": 2021,
+      "cgpa": 7,
+    }
+  ],
+  "skills": [
+    {
+      "name": "VHDL,C,",
+      "level": "beginer",
+      "project": [
+        "IOT based smart helth monitoring system with vitual support of Doctor"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Kannada,Enlish",
+    }
+  ],
+  "interests": [
+    {
+      "name": "coding,bee keeping,",
+    }
+  ]
+}
+console.log(myResume);
